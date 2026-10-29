@@ -1,0 +1,21 @@
+[Unit]
+Description=UU Armada NAT compatibility component
+Documentation=file:/var/lib/uu-armada-compat/current/README.md
+After=local-fs.target network-online.target
+Before=uuplugin.service
+ConditionPathExists=/var/lib/uu-armada-compat/current/runtime/cli.py
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecCondition=/usr/bin/python3 -I -B /var/lib/uu-armada-compat/current/runtime/cli.py boot-check
+ExecStart=/usr/bin/python3 -I -B /var/lib/uu-armada-compat/current/runtime/cli.py boot
+TimeoutStartSec=150
+TimeoutStopSec=10
+Restart=no
+UMask=0077
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,24 @@
+{
+  "product": "uu-armada-compat",
+  "version": "0.1.0",
+  "display_version": "0.1.0",
+  "schema": 1,
+  "release_kind": "release",
+  "module_scope": "Exact Armada 20260926.c2fd048 and 20261010.c3d178c kernel builds",
+  "online_update": false,
+  "package_revision": "dual-kernel-release-1",
+  "replaces": [
+    {
+      "version": "0.1.0",
+      "manifest_sha256": "6e794f7b9dd0b180082c73905d5d9b7a1e4e9d370e2c827d877ef27c7acefa3b"
+    },
+    {
+      "version": "0.1.1-rc.1",
+      "manifest_sha256": "afea04322daf1835b4d742b1b4d2f240d5998b3a35de40c52cec9b54095adf56"
+    },
+    {
+      "version": "0.1.0",
+      "manifest_sha256": "2394efcfe1b3d013da94fcdda2c101536b2bbfc41b743b6d36985e982069bd7a"
+    }
+  ]
+}

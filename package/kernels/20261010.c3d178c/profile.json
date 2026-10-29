@@ -1,0 +1,50 @@
+{
+  "release": "7.2.6",
+  "uname_version": "#1 SMP PREEMPT Fri Oct  9 12:18:51 UTC 2026",
+  "kernel_build_id": "7ea1d05956372315de207e53aec37aa6ffe002f7",
+  "module_build_id": "4072da4cea38d934c9e888f2eab69bb74da01fa8",
+  "module_sha256": "8dd14c08888216995dfad5e56032bbf4c6c8bf36bcb42befb82b8f627aaafa3b",
+  "vermagic": "7.2.6 SMP preempt mod_unload aarch64",
+  "config_sha256": "3cae56750274cbd5b90a788335389dfbd38ad9fcb526505593ee878dc208a04f",
+  "files": {
+    "/usr/lib/modules/7.2.6/vmlinuz": "ba0d70f0bcbd80e52a0c366784c16a0729241c746e89976e5755521130a0132f",
+    "/usr/lib/modules/7.2.6/kernel/net/netfilter/x_tables.ko": "2dfba41e39e3ea25a9b82998499760834b6c807305c30e877431362ae0463d22",
+    "/usr/lib/modules/7.2.6/kernel/net/netfilter/nf_nat.ko": "accaf161694732fbaa793691e175dfdedee35e4128793c1c4e7bd15fc4cc8604",
+    "/usr/lib/modules/7.2.6/kernel/net/netfilter/nf_conntrack.ko": "02b9a2a9829d628893afb353d95ab684858794329742a611f43fd47ad754db86",
+    "/usr/lib/modules/7.2.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko": "d1b2ac1f5881542d84ab941321db26acf1f16fb22728b9471106033a8b80be5a",
+    "/usr/lib/modules/7.2.6/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko": "133767003916e38374cf86c3655882cc6d40a19dfb7e6efdba2659ccb94b774c"
+  },
+  "dependencies": [
+    "x_tables",
+    "nf_nat",
+    "nf_conntrack"
+  ],
+  "dependency_build_ids": {
+    "x_tables": "92d7e86ae68abca0af2f3667c867157cc14d8a98",
+    "nf_nat": "66634b2cdfc6cd395e445e5b40da81c7a27da88c",
+    "nf_conntrack": "8596e6864ef09c0745ee0f9ee7ba7a109bcc3d9b",
+    "nf_defrag_ipv4": "45ae9d22b52d498c6fe5ca67f77db23abdced4c8",
+    "nf_defrag_ipv6": "27331bd63eacebea2257d45904d99dc8af495ea2"
+  },
+  "dependency_order": [
+    "x_tables",
+    "nf_defrag_ipv4",
+    "nf_defrag_ipv6",
+    "nf_conntrack",
+    "nf_nat"
+  ],
+  "dependency_paths": {
+    "x_tables": "/usr/lib/modules/7.2.6/kernel/net/netfilter/x_tables.ko",
+    "nf_nat": "/usr/lib/modules/7.2.6/kernel/net/netfilter/nf_nat.ko",
+    "nf_conntrack": "/usr/lib/modules/7.2.6/kernel/net/netfilter/nf_conntrack.ko",
+    "nf_defrag_ipv4": "/usr/lib/modules/7.2.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko",
+    "nf_defrag_ipv6": "/usr/lib/modules/7.2.6/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko"
+  },
+  "all_dependency_names": [
+    "x_tables",
+    "nf_defrag_ipv4",
+    "nf_defrag_ipv6",
+    "nf_conntrack",
+    "nf_nat"
+  ]
+}

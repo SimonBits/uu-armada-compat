@@ -1,0 +1,15 @@
+{
+  "schema": 2,
+  "profiles": [
+    {
+      "id": "20260926.c2fd048",
+      "profile": "kernels/20260926.c2fd048/profile.json",
+      "module": "kernels/20260926.c2fd048/xt_nat.ko"
+    },
+    {
+      "id": "20261010.c3d178c",
+      "profile": "kernels/20261010.c3d178c/profile.json",
+      "module": "kernels/20261010.c3d178c/xt_nat.ko"
+    }
+  ]
+}
